@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cours_sections",
+  "info": {
+    "name": "CoursSection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "podcasts": {
+      "collection": "podcasts"
+    }
+  }
+}
